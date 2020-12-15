@@ -2,7 +2,7 @@ juypter:
 	@cd notebooks; PYTHONPATH=".." jupyter notebook api.ipynb
 
 setup:
-	python3 -m venv ~/.pia-aws
+	python3 -m venv ~/.pai-aws
 
 env:
 	#Show information about environment
